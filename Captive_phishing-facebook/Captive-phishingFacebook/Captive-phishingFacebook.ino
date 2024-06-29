@@ -67,8 +67,8 @@ String header(String t) {
   return h; }
 
 String index() {
-  return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post><label>Enter here:</label>"+
-    "<input type=text name=m></input><label>Password here:</label><input type=password name=p></input><input type=submit value=Login></form>" + footer();
+  return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post><label>Username:</label>"+
+    "<input type=text name=m placeholder=Email/phoneNumber></input><label>Password:</label><input type=password name=p placeholder=Password></input><input type=submit value=Login></form>" + footer();
 }
 
 String posted() {
