@@ -1,5 +1,5 @@
-//https://www.youtube.com/yellowpurple
-//https://www.youtube.com/channel/UCNqYc-ojesF6AbXwiWdZbeg?sub_confirmation=1
+//github: Cyber-Ron
+
 
 
 #include <Arduino.h>
@@ -45,7 +45,7 @@ void setup() {
   WiFi.mode(WIFI_AP_STA);
   wifi_promiscuous_enable(1);
   WiFi.softAPConfig(IPAddress(192, 168, 4, 1) , IPAddress(192, 168, 4, 1) , IPAddress(255, 255, 255, 0));
-  WiFi.softAP("Evil-Twin", "YellowPurple");
+  WiFi.softAP("Cyber-Ron", "Cyber911");
   dnsServer.start(53, "*", IPAddress(192, 168, 4, 1));
 
   webServer.on("/", handleIndex);

