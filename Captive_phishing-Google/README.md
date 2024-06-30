@@ -1,0 +1,5 @@
+# ESP8266GoogleCaptivePortal
+
+
+```
+172.217.28.1/creds - To see the captured data
