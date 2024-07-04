@@ -1,0 +1,11 @@
+172.0.0.1/index
+    This is the main page. Here the user will write his password and send it.
+
+172.0.0.1/post
+    This is the post page. The user will be redirected here after posting the password.
+
+172.0.0.1/pass
+    This is where the attacker can retrieve all the passwords that has been posted.
+
+172.0.0.1/ssid
+    Here the attacker can change the SSID name of the Access Point on the go.
